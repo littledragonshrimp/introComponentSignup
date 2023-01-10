@@ -72,6 +72,7 @@ main button:hover{
     }
 
     button{
+        width: 81%;
         background-color: $green;
         text-transform: uppercase;
         padding: 1.5rem;
@@ -83,11 +84,44 @@ main button:hover{
 }
 
 .terms{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 80%;
     margin: auto;
     color: $gray;
+    font-size: 12px;
     b{
         font-weight: 500;
         color: coral;
+    }
+}
+
+@media screen and (min-width: 1240px){
+    body{
+        background-image: url(images/bg-intro-desktop.png);
+    }
+
+    main{
+        display: block;
+        margin-top: 10%;
+    }
+    header{
+       display: block;
+       float: left;
+       max-width: 42%;
+       margin-left: 8%;
+       h1, p{text-align: start;}
+       p{margin-left: 0;}
+    }
+    .form-container, .try{
+        display: block;
+        float: right;
+        margin-right: 8%;
+        max-width: 42%;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 10%;
     }
 }
