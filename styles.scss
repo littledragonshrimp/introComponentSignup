@@ -47,6 +47,7 @@ main button{
     width: 80%;
     border-radius: 8px;
     border: none;
+    font-weight: 500;
     p{
         color: $gray;
     }
@@ -63,6 +64,7 @@ main button:hover{
 .form-container{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-top: 1rem;
     border-radius: 8px;
     background-color: white;
     width: 80%;
@@ -85,7 +87,7 @@ main button:hover{
 
 .terms{
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     width: 80%;
     margin: auto;
     color: $gray;
@@ -96,7 +98,7 @@ main button:hover{
     }
 }
 
-@media screen and (min-width: 1240px){
+@media screen and (min-width: 1440px){
     body{
         background-image: url(images/bg-intro-desktop.png);
     }
@@ -104,19 +106,20 @@ main button:hover{
     main{
         display: block;
         margin-top: 10%;
+        padding-top: 2rem;
     }
     header{
        display: block;
        float: left;
        max-width: 42%;
-       margin-left: 8%;
+       margin-left: 7rem;
        h1, p{text-align: start;}
        p{margin-left: 0;}
     }
     .form-container, .try{
         display: block;
         float: right;
-        margin-right: 8%;
+        margin-right: 7rem;
         max-width: 42%;
     }
     footer{
