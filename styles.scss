@@ -23,7 +23,7 @@ header{
     color: white;
     text-align: center;
     h1{
-        font-size: 40px;
+        font-size: 3rem;
         font-weight: 700;
         line-height: 2.9rem;
     }
@@ -124,7 +124,9 @@ main button:hover{
     }
     footer{
         position: absolute;
-        bottom: 0;
-        left: 10%;
+        bottom: 1rem;
+        left: 50%;
+        TRANSFORM: translate(-50%);
+        text-align: center;
     }
 }
